@@ -1,0 +1,12 @@
+database:
+  host: "postgres"
+  port: 5432
+  user: "user"
+  password: "password"
+  dbname: "messages"
+
+kafka:
+  brokers:
+    - "kafka:9092"
+  topic: "messages"
+  group_id: "message_group"

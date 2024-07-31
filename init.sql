@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS messages (
+    id SERIAL PRIMARY KEY,
+    content VARCHAR(255) NOT NULL,
+    status VARCHAR(255) NOT NULL
+);
